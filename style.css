@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:  Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    padding: 15px;
+    color:white;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 100;    
+}
+section{
+    padding: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searcher{
+    background-color:#DADBF1;
+    padding: 50px;
+    text-align: center;
+
+}
+.elements{
+    flex: 1;
+}
+.barra{
+    height: 35px;
+    width: 350px;
+}
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+
+}
